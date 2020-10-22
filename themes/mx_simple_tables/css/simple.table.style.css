@@ -1,0 +1,111 @@
+/****SEARCH TABLE*****/
+ul.search-table{
+  border:1px solid #6a6a6a;
+  border-width: 1px 0;
+  color: black;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul.search-table li.table-header{
+  height:25px;
+  line-height: 25px;
+  border-top: none;
+  padding: 0 5px;
+  background: url(../images/gradient.png) repeat-x 0 100%;
+}
+ul.search-table li{
+  position: relative;
+  padding: 0 5px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid #bfbfbf;
+  overflow: hidden;
+  height: 26px;
+  line-height: 27px;
+}
+ul.search-table li:last-child{
+  border-bottom: none;
+}
+ul.search-table li span{
+  margin: 0 10px 0 0;
+  color: #747474;
+  font-weight: bold;
+  vertical-align: middle;
+
+}
+div.search-styled{
+  padding: 0 9px;
+  cursor: pointer;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+}
+div.search-styled.checked{
+  background: #9b9b9b;
+  border-radius:7px;
+  padding: 0 8px;
+  color: white;
+  border: 1px solid #8f8f8f;
+  text-shadow:0 1px 1px #5c5c5c;
+  border-top: 1px solid #525252;
+  box-shadow:inset 0 1px 1px #888888, 0 1px #eaeaea;
+}
+div.search-styled input[type="checkbox"]{
+  display: none;
+}
+
+.table-right{
+  position: absolute;
+  top: 0;
+  right: 5px;
+  height: 100%;
+}
+.search-minus,.search-plus{
+  display: inline-block;
+  width:16px;
+  height: 17px;
+  background: url(../images/minus.png) no-repeat;
+  vertical-align: middle;
+  cursor: pointer;
+  position: relative;
+  top:-1px;
+}
+.search-plus{
+  background: url(../images/plus.png) no-repeat;
+}
+ul.search-table input[type="submit"]{
+  background: #fafafa url(../images/submit-bg.png) repeat-x 0 100%;
+  border-radius:7px;
+  border: 1px solid #a7a7a7;
+  height: 16px;
+  outline: none;
+  padding: 0 9px;
+  padding-top:1px\9;
+  color: black;
+  font-size: 11px;
+  display: inline-block;
+  box-shadow:0 1px #eaeaea;
+  cursor: pointer;
+}
+
+
+ul.search-table li select{
+  margin: 0 4px;
+  font-size: 12px;
+}
+ul.search-table li select:first-child{
+  margin-left: 0;
+}
+ul.search-table input[type="text"]{
+  height:17px;
+  width: 48px;
+  padding: 0 5px;
+  line-height: 17px;
+  background: white;
+  border: 1px solid #aaaaaa;
+  box-shadow:inset 0 1px 2px #e3e3e3;
+  outline: none;
+}

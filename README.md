@@ -1,4 +1,4 @@
-# MX Simple Tables for ExpressionEngine#
+# MX Simple Tables for ExpressionEngine
 
 
 ### Installation
