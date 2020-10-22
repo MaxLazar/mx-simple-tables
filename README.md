@@ -1,5 +1,6 @@
 # MX Simple Tables for ExpressionEngine
 
+![MX Simple Tables for ExpressionEngine](mx-simple-tables.svg)
 
 ### Installation
 * Download the latest version of MX Simple Tables and extract the .zip to your desktop.
