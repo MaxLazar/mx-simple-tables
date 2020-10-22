@@ -1,0 +1,31 @@
+http://jplist.com/home/demo
+
+$sql = "LOAD DATA LOCAL INFILE '$csvPathAndFile' INTO TABLE $tableName FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '\\\"' ESCAPED BY '\\\\\\\\' LINES TERMINATED BY '\\\\r\\\\n';";
+system("mysql -u $dbUser -h $dbHost --password=$dbPass --local_infile=1 -e \"$sql\" $dbName");
+
+
+LOAD DATA LOCAL INFILE '{$file}' INTO TABLE {$table}
+add gzip support
+
+register_shutdown_function
+
+hLttps://mixpanel.com
+https://www.intercom.io
+https://github.com/danmaz74/ABalytics
+
+http://habrahabr.ru/company/trackduck/blog/229259/#comment_7764709
+
+
+http://handsontable.com/demo/ajax.html
+https://github.com/handsontable/jquery-handsontable/wiki/Methods
+https://github.com/handsontable/jquery-handsontable/wiki/Options
+http://handsontable.com/demo/datasources.html
+https://github.com/handsontable/jquery-handsontable/wiki/Events
+
+
+https://github.com/goodby/csv
+
+
+
+add exteded filters
+

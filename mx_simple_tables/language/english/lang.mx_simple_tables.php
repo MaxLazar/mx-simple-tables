@@ -1,0 +1,31 @@
+<?php
+$lang = array(
+    'mx_simple_tables_name' => 'MX Simple Tables',
+    'mx_simple_tables_module_name' => 'MX Simple Tables',
+    'mx_simple_tables_module_description' => 'MX Simple Tables',
+    'welcome' => 'Welcome to MX Simple Tables',
+    'save' => 'save'
+    , 'list'=>'List'
+    , 'upload_data'=>'Upload Data'
+    , 'upload_file'=>'Upload File'
+    , 'submit_file'=>'Submit File'
+    , 'add_collections'=>'+ Add Collections'
+    , 'collection'=>'Collection'
+    , 'delete'=>'delete'
+    , 'name'=>'Name'
+    , 'short_name'=>'Short name'
+    , 'entries'=>'Entries'
+    , 'actions'=>'Actions'
+    , 'collection_settings'=>'Collection Settings'
+    , 'no_collections'=>'No collections'
+    , 'collections'=>'Collections'
+    , 'create_collection'=>'Create Collection'
+    , 'help'=>'Help'
+    , 'import'=>'Import'
+    , 'header_from_file'=>'Header'
+    , 'column'=>'Column'
+    , 'do_not_import'=>'Do not Import'
+    , 'new_column'=>'New Column'
+    , 'delete'=>'Delete'
+    , ''=>''
+);
